@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dialtone</title>
+<meta name="description" content="Dialtone is a touch instrument for iPad and iPhone built on a circle of thirds. Support, contact and privacy policy.">
+<link rel="icon" type="image/png" href="/support/favicon.png">
+<link rel="apple-touch-icon" href="/support/apple-touch-icon.png">
+<style>
+  @font-face { font-family: "Plex Mono"; src: url("/support/fonts/IBMPlexMono-Regular.woff2") format("woff2"); font-weight: 400; font-display: swap; }
+  @font-face { font-family: "Plex Mono"; src: url("/support/fonts/IBMPlexMono-SemiBold.woff2") format("woff2"); font-weight: 600; font-display: swap; }
+
+  :root {
+    --bg: #ffffff;
+    --ink: #22262c;
+    --muted: #5d6470;
+    --rule: #e3e6ea;
+    --link: #0072c6;
+    --panel: #f5f6f8;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #15181c;
+      --ink: #e8eaed;
+      --muted: #a2a9b4;
+      --rule: #2c3138;
+      --link: #4db3f0;
+      --panel: #1d2126;
+    }
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font: 17px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif;
+  }
+  main { max-width: 680px; margin: 0 auto; padding: 48px 16px 64px; }
+  h1, h2, h3, nav { font-family: "Plex Mono", ui-monospace, monospace; }
+  header { display: flex; align-items: center; gap: 20px; margin-bottom: 8px; }
+  header img { width: 96px; height: 96px; flex: none; border-radius: 22%; }
+  h1 { font-size: 2.2rem; font-weight: 600; margin: 0; letter-spacing: -0.01em; }
+  .tagline { margin: 2px 0 0; color: var(--muted); }
+  nav { display: flex; gap: 20px; flex-wrap: wrap; margin: 24px 0 8px; font-size: 0.95rem; }
+  h2 { font-size: 1.3rem; font-weight: 600; margin: 48px 0 12px; padding-top: 24px; border-top: 1px solid var(--rule); }
+  h3 { font-size: 1rem; font-weight: 600; margin: 24px 0 4px; }
+  p, ul { margin: 0 0 14px; }
+  ul { padding-left: 1.2em; }
+  li { margin-bottom: 4px; }
+  a { color: var(--link); text-underline-offset: 2px; }
+  .contact { background: var(--panel); border-radius: 12px; padding: 16px 20px; margin: 16px 0; }
+  .contact p { margin: 0; }
+  .muted { color: var(--muted); font-size: 0.9rem; }
+  footer { margin-top: 56px; color: var(--muted); font-size: 0.85rem; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <img src="/support/icon.png" alt="">
+    <div>
+      <h1>Dialtone</h1>
+      <p class="tagline">A circle-of-thirds instrument for iPad and iPhone</p>
+    </div>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#support">Support</a>
+    <a href="#privacy">Privacy policy</a>
+  </nav>
+
+  <section id="about">
+    <h2>About</h2>
+    <p>Dialtone is both a fun, easy-to-play instrument and a serious tool for exploring complex musical ideas.</p>
+    <p>A circle of thirds progresses naturally from a diatonic scale to a full chromatic scale, and controls work together to allow fluid movement across chords, melody lines, octaves, scales and modes. Rather than moving to different parts of the playing surface to find the chord you want, you reconfigure the playing surface in real time.</p>
+    <ul>
+      <li>Two mirrored dials in landscape, each with its own octave buttons</li>
+      <li>All 12 keys and seven modes, from Lydian to Locrian, changeable as you play</li>
+      <li>Five dial layouts, from the seven notes of the key to all twelve</li>
+      <li>Labels as note names, intervals or Roman numerals</li>
+      <li>Pitch bend around a slice, tone in and out, volume from how hard you strike</li>
+      <li>A built-in synth, and with Dialtone Pro, MIDI and MPE out and an arpeggiator</li>
+    </ul>
+    <p>For iPad and iPhone, running iPadOS or iOS 17 or later. It's best on iPad, where two dials let you play harmony and melody at the same time; iPhone shows one dial, with every other feature. Free to download, with Dialtone Pro as an optional one-time in-app purchase.</p>
+  </section>
+
+  <section id="support">
+    <h2>Support</h2>
+    <p>Questions, problems, or ideas? Write any time.</p>
+    <div class="contact">
+      <!-- milestoneappstore@gmail.com: the support address, in both the href and the text, here and in the privacy policy -->
+      <p>Email: <a href="mailto:milestoneappstore@gmail.com">milestoneappstore@gmail.com</a></p>
+    </div>
+    <p class="muted">When reporting a problem, it helps to include your iPad or iPhone model, the iPadOS or iOS version, and what you were doing when it happened.</p>
+
+    <h3>What does this control do?</h3>
+    <p>Tap <strong>?</strong> in the top right corner, then tap any control to see what it does. Tap <strong>?</strong> again to go back to playing.</p>
+
+    <h3>Restoring Dialtone Pro</h3>
+    <p>If you bought Dialtone Pro on another iPad or iPhone, or reinstalled the app, tap the MIDI pad in the bottom left corner, then <strong>Restore</strong>. Use the same Apple Account you bought it with.</p>
+
+    <h3>Connecting MIDI</h3>
+    <p>Turn MIDI on from the MIDI pad and choose where it goes. Usually the simplest way is to choose <strong>Connect from another app</strong>, then select Dialtone as the input in the synth or host app. Many synth apps stop playing in the background; check the app's own settings, or its page in Settings, for an option to keep it running.</p>
+
+    <h3>A note is stuck</h3>
+    <p>While MIDI is on, the small <strong>!</strong> button next to the MIDI pad silences every note at once.</p>
+  </section>
+
+  <section id="privacy">
+    <h2>Privacy policy</h2>
+    <p class="muted">Effective October 27, 2026</p>
+    <p>Dialtone collects no data. It has no accounts, analytics, advertising or tracking, and it sends nothing to its developer or to anyone else.</p>
+    <ul>
+      <li><strong>Settings</strong> such as your key, mode and synth sound are stored only on your device.</li>
+      <li><strong>Bluetooth</strong> is used only to connect the Bluetooth MIDI devices you choose, and only once you open Bluetooth in the MIDI settings.</li>
+      <li><strong>Motion.</strong> Dialtone reads the device's accelerometer to tell how hard you strike a note. The readings are used on the spot and never stored or sent anywhere.</li>
+      <li><strong>MIDI</strong> goes only to the apps and devices you choose.</li>
+      <li><strong>Purchases</strong> are handled by Apple through the App Store, under <a href="https://www.apple.com/legal/privacy/">Apple's privacy policy</a>. Dialtone learns only whether Dialtone Pro has been bought.</li>
+    </ul>
+    <p>Because Dialtone collects nothing, it collects nothing from children either. If this policy changes, the new version will be posted on this page with a new effective date.</p>
+    <p>Questions about privacy: <a href="mailto:milestoneappstore@gmail.com">milestoneappstore@gmail.com</a></p>
+  </section>
+
+  <footer>
+    <p>© 2026 Miles Parker</p>
+  </footer>
+</main>
+</body>
+</html>
